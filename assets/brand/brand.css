@@ -1,0 +1,8 @@
+/* ASRSN shared brand tokens. */
+:root {
+  --asrsn-emerald: #046A38;
+  --asrsn-gold: #D4AF37;
+  --asrsn-platinum: #C7CDD4;
+  --asrsn-navy: #071A2B;
+}
+.asrsn-logo { display: block; width: 100%; height: auto; object-fit: contain; }

@@ -1,13 +1,15 @@
+<p align="center"><a href="https://asrsn.me"><img src="assets/brand/asrsn-logo.png" alt="ASRSN" width="180"></a></p>
+
 <h1 align="center">Amalakanti Siva Rama Surya Nandh</h1>
 
 <p align="center">
-  M.Tech student in Artificial Intelligence & Data Science<br>
+  M.Tech graduate in Artificial Intelligence & Data Science<br>
   Building reproducible deep-learning and computer-vision systems
 </p>
 
 ## About me
 
-I am an M.Tech student focused on practical artificial intelligence, deep learning, and computer
+I am an M.Tech graduate focused on practical artificial intelligence, deep learning, and computer
 vision. I enjoy turning research ideas into clear, testable software with documented assumptions,
 reproducible experiments, and honest evaluation.
 
@@ -47,3 +49,11 @@ a Streamlit demonstration, reproducible evaluation tools, automated tests, and G
 ## Connect
 
 Explore my repositories here on GitHub or follow the featured project for updates.
+
+## Website and identity
+
+- Website: [asrsn.me](https://asrsn.me/)
+- Public contact: [contact@asrsn.me](mailto:contact@asrsn.me)
+- Shared logo files and usage guidance: [ASRSN brand assets](brand/README.md)
+
+The website is served by GitHub Pages from the repository root. Keep `CNAME` as `asrsn.me`.
