@@ -53,6 +53,7 @@ Explore my repositories here on GitHub or follow the featured project for update
 ## Website and identity
 
 - Website: [asrsn.me](https://asrsn.me/)
+- Contact directory: [asrsn.me/contact.html](https://asrsn.me/contact.html)
 - Public contact: [contact@asrsn.me](mailto:contact@asrsn.me)
 - Shared logo files and usage guidance: [ASRSN brand assets](brand/README.md)
 
