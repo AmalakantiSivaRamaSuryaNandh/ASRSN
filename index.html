@@ -3,35 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#07111f" />
+    <meta name="theme-color" content="#071A2B" />
     <meta
       name="description"
-      content="Portfolio of Amalakanti Siva Rama Surya Nandh, an M.Tech Artificial Intelligence and Data Science student building reproducible machine-learning and software projects."
+      content="Portfolio of Amalakanti Siva Rama Surya Nandh, an M.Tech Artificial Intelligence and Data Science graduate building reproducible machine-learning and software projects."
     />
     <meta property="og:title" content="Amalakanti Siva Rama Surya Nandh | AI & Data Science" />
     <meta
       property="og:description"
-      content="Research-minded AI and data science student building transparent, testable machine-learning systems."
+      content="Research-minded AI and data science graduate building transparent, testable machine-learning systems."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://asrsn.me/" />
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/259166328?v=4" />
+    <meta property="og:image" content="https://asrsn.me/assets/brand/asrsn-social-card.png" />
     <link rel="canonical" href="https://asrsn.me/" />
-    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="assets/brand/asrsn-logo.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ASRSN — AI Research and Software Development" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://asrsn.me/assets/brand/asrsn-social-card.png" />
+    <link rel="stylesheet" href="assets/brand/brand.css" />
     <title>Amalakanti Siva Rama Surya Nandh | AI & Data Science</title>
 
     <style>
       :root {
         color-scheme: dark;
-        --bg: #07111f;
-        --surface: rgba(12, 27, 47, 0.78);
-        --surface-strong: #0d1d31;
-        --line: rgba(153, 180, 211, 0.18);
-        --text: #eff7ff;
-        --muted: #a7bbd1;
-        --accent: #62e6c8;
-        --accent-2: #78a7ff;
-        --warm: #ffcf70;
+        --bg: #071A2B;
+        --surface: rgba(15, 35, 52, 0.88);
+        --surface-strong: #0b2235;
+        --line: rgba(199, 205, 212, 0.20);
+        --text: #f3f5f6;
+        --muted: #b5c2cc;
+        --accent: #D4AF37;
+        --accent-2: #C7CDD4;
+        --warm: #D4AF37;
         --max: 1140px;
         --radius: 24px;
       }
@@ -48,8 +56,8 @@
         margin: 0;
         min-width: 320px;
         background:
-          radial-gradient(circle at 8% 8%, rgba(98, 230, 200, 0.12), transparent 30rem),
-          radial-gradient(circle at 92% 24%, rgba(120, 167, 255, 0.13), transparent 28rem),
+          radial-gradient(circle at 8% 8%, rgba(4, 106, 56, 0.12), transparent 30rem),
+          radial-gradient(circle at 92% 24%, rgba(212, 175, 55, 0.13), transparent 28rem),
           var(--bg);
         color: var(--text);
         font-family:
@@ -92,7 +100,7 @@
         top: 0;
         z-index: 20;
         border-bottom: 1px solid var(--line);
-        background: rgba(7, 17, 31, 0.78);
+        background: rgba(7, 26, 43, 0.94);
         backdrop-filter: blur(18px);
       }
 
@@ -113,17 +121,15 @@
         letter-spacing: -0.02em;
       }
 
-      .brand-mark {
-        display: grid;
-        width: 36px;
-        height: 36px;
-        place-items: center;
-        border: 1px solid rgba(98, 230, 200, 0.5);
-        border-radius: 12px;
-        background: rgba(98, 230, 200, 0.09);
-        color: var(--accent);
-        font-size: 0.82rem;
-      }
+      .brand-mark { width: 64px; height: 64px; object-fit: contain; flex-shrink: 0; }
+      .brand-name { color: var(--accent); letter-spacing: .08em; }
+      .brand-name small { display: block; color: var(--muted); font-size: .66rem; font-weight: 500; letter-spacing: .015em; }
+      .footer-identity { display: inline-flex; align-items: center; gap: 12px; }
+      .footer-identity img { flex-shrink: 0; object-fit: contain; }
+      .contact-routing { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 20px; font-size: .88rem; }
+      .contact-routing a { text-underline-offset: 4px; }
+      @media (max-width: 580px) { .brand-name small { max-width: 130px; font-size: .61rem; } .nav { gap: 12px; } }
+
 
       .nav-links {
         display: flex;
@@ -190,7 +196,7 @@
       }
 
       .gradient-text {
-        background: linear-gradient(105deg, var(--accent), #b7f7ea 38%, var(--accent-2));
+        background: linear-gradient(105deg, var(--accent), #f5e8bf 38%, var(--accent-2));
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -224,7 +230,7 @@
 
       .button:hover,
       .button:focus-visible {
-        border-color: rgba(98, 230, 200, 0.6);
+        border-color: rgba(212, 175, 55, 0.6);
         transform: translateY(-2px);
       }
 
@@ -244,7 +250,7 @@
         position: absolute;
         inset: -14px;
         z-index: -1;
-        border: 1px solid rgba(120, 167, 255, 0.4);
+        border: 1px solid rgba(212, 175, 55, 0.4);
         border-radius: 36px;
         content: "";
         transform: rotate(4deg);
@@ -267,7 +273,7 @@
         padding: 13px 15px;
         border: 1px solid var(--line);
         border-radius: 15px;
-        background: rgba(8, 20, 35, 0.92);
+        background: rgba(7, 26, 43, 0.96);
         box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
         color: var(--muted);
         font-size: 0.82rem;
@@ -338,9 +344,9 @@
       .focus-list li,
       .tag {
         padding: 7px 11px;
-        border: 1px solid rgba(120, 167, 255, 0.22);
+        border: 1px solid rgba(212, 175, 55, 0.22);
         border-radius: 999px;
-        background: rgba(120, 167, 255, 0.07);
+        background: rgba(212, 175, 55, 0.07);
         color: #c8d8ea;
         font-size: 0.82rem;
       }
@@ -361,7 +367,7 @@
       }
 
       .project-card:hover {
-        border-color: rgba(98, 230, 200, 0.38);
+        border-color: rgba(4, 106, 56, 0.38);
         transform: translateY(-4px);
       }
 
@@ -475,10 +481,10 @@
         align-items: end;
         gap: 40px;
         padding: clamp(30px, 6vw, 70px);
-        border: 1px solid rgba(98, 230, 200, 0.32);
+        border: 1px solid rgba(4, 106, 56, 0.32);
         border-radius: 30px;
         background:
-          linear-gradient(135deg, rgba(98, 230, 200, 0.1), rgba(120, 167, 255, 0.08)),
+          linear-gradient(135deg, rgba(4, 106, 56, 0.1), rgba(212, 175, 55, 0.08)),
           var(--surface-strong);
       }
 
@@ -508,7 +514,7 @@
       }
 
       :focus-visible {
-        outline: 3px solid rgba(98, 230, 200, 0.55);
+        outline: 3px solid rgba(212, 175, 55, 0.8);
         outline-offset: 4px;
       }
 
@@ -599,8 +605,8 @@
         "@type": "Person",
         "name": "Amalakanti Siva Rama Surya Nandh",
         "url": "https://asrsn.me/",
-        "image": "https://avatars.githubusercontent.com/u/259166328?v=4",
-        "email": "mailto:asrsn.cse@gmail.com",
+        "image": "https://asrsn.me/assets/profile.png",
+        "email": "mailto:contact@asrsn.me",
         "sameAs": ["https://github.com/AmalakantiSivaRamaSuryaNandh"],
         "knowsAbout": [
           "Artificial intelligence",
@@ -620,8 +626,8 @@
     <header class="site-header">
       <nav class="nav shell" aria-label="Primary navigation">
         <a class="brand" href="#top" aria-label="Go to the top of the page">
-          <span class="brand-mark" aria-hidden="true">AS</span>
-          <span>ASRSN</span>
+          <img class="brand-mark" src="assets/brand/asrsn-logo.svg" alt="" width="64" height="64" />
+          <span class="brand-name">ASRSN<small>AI Research &amp; Software Development</small></span>
         </a>
         <div class="nav-links">
           <a href="#about">About</a>
@@ -642,20 +648,20 @@
               Amalakanti Siva Rama <span class="gradient-text">Surya Nandh.</span>
             </h1>
             <p class="hero-copy">
-              M.Tech student building reproducible deep-learning, computer-vision, and data-driven
+              M.Tech graduate building reproducible deep-learning, computer-vision, and data-driven
               software—with a focus on transparent evaluation, useful interfaces, and responsible
               engineering.
             </p>
             <div class="actions">
               <a class="button primary" href="#work">Explore selected work</a>
-              <a class="button" href="mailto:asrsn.cse@gmail.com">Email me</a>
+              <a class="button" href="mailto:contact@asrsn.me">Email me</a>
             </div>
           </div>
 
           <div class="portrait-wrap">
             <img
               class="portrait"
-              src="https://avatars.githubusercontent.com/u/259166328?v=4"
+              src="assets/profile.png"
               alt="Portrait of Amalakanti Siva Rama Surya Nandh"
               width="460"
               height="460"
@@ -676,8 +682,8 @@
               <h2 id="about-title">Research curiosity, engineered into working software.</h2>
             </div>
             <p class="section-intro">
-              Based in Andhra Pradesh, India, I study Artificial Intelligence and Data Science at
-              Kakinada Institute of Engineering &amp; Technology.
+              Based in Andhra Pradesh, India, I have completed B.Tech and M.Tech studies in
+              Computer Science and Engineering, specializing in Artificial Intelligence and Data Science.
             </p>
           </div>
 
@@ -836,17 +842,17 @@
 
           <div class="timeline">
             <article class="timeline-item">
-              <time class="timeline-date" datetime="2024/2026">2024—2026</time>
+              <span class="timeline-date">2024—2026</span>
               <div>
                 <h3>M.Tech, Artificial Intelligence &amp; Data Science</h3>
-                <p>Kakinada Institute of Engineering &amp; Technology · Current student</p>
+                <p>Kakinada Institute of Engineering &amp; Technology · Completed</p>
               </div>
             </article>
             <article class="timeline-item">
-              <time class="timeline-date" datetime="2020/2024">2020—2024</time>
+              <span class="timeline-date">2020—2024</span>
               <div>
                 <h3>B.Tech, CSE — Artificial Intelligence &amp; Data Science</h3>
-                <p>Kakinada Institute of Engineering &amp; Technology · CGPA 7.64 / 10</p>
+                <p>Kakinada Institute of Engineering &amp; Technology · Completed</p>
               </div>
             </article>
           </div>
@@ -910,9 +916,13 @@
                 I welcome conversations about machine learning, computer vision, research projects,
                 open-source work, and early-career opportunities.
               </p>
+              <div class="contact-routing" aria-label="Specialist inquiries">
+                <a href="mailto:research@asrsn.me">Research inquiries</a>
+                <a href="mailto:ventures@asrsn.me">Startup &amp; partnership inquiries</a>
+              </div>
             </div>
             <div class="actions">
-              <a class="button primary" href="mailto:asrsn.cse@gmail.com">asrsn.cse@gmail.com</a>
+              <a class="button primary" href="mailto:contact@asrsn.me">contact@asrsn.me</a>
               <a class="button" href="https://github.com/AmalakantiSivaRamaSuryaNandh">GitHub ↗</a>
             </div>
           </div>
@@ -922,8 +932,8 @@
 
     <footer>
       <div class="footer-row shell">
-        <span>© 2026 Amalakanti Siva Rama Surya Nandh</span>
-        <span>Built for clarity, accessibility, and honest technical storytelling.</span>
+        <span class="footer-identity"><img src="assets/brand/asrsn-logo.svg" alt="" width="56" height="56" /><span>© 2026 ASRSN<br />Amalakanti Siva Rama Surya Nandh</span></span>
+        <span>AI research, software development, and thoughtful innovation.</span>
       </div>
     </footer>
   </body>
